@@ -1,7 +1,8 @@
 /* Global
 ================================================== */
 
-body {
+html, body {
+	height: 100%;
 	background: #f2f2f2;
 	color: #7a7a7a;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -14,6 +15,21 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2f2f2f;
 	text-rendering: auto;
 }
+#wrap {
+  min-height: 90%;
+}
+
+#main {
+  overflow:auto;
+  
+}
+.footer {
+  position: relative;
+margin-top: -181px; /* negative value of footer height */
+  height: 181px;
+  clear:both;
+  padding-top:20px;
+} 
 .title {
 	font-weight: 800;
 	font-size: 36px;
@@ -279,6 +295,7 @@ input, select, textarea {
 	-moz-text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 	-webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 	border-bottom: 10px solid #2D6D2F;
+
 }
 #hero-slider, #hero-inner-page {
 	padding-top: 430px;
