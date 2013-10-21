@@ -79,7 +79,7 @@ a.btn-link {
 }
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
 	color: #f2f2f2;
-	background-color: #FFA322;
+	background-color: #A5650B;
 }
 .btn-primary {
 	background-color: #006dcc;
@@ -294,7 +294,7 @@ input, select, textarea {
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 	-moz-text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 	-webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-	border-bottom: 10px solid #FFA322;
+	border-bottom: 10px solid #A5650B;
 
 }
 #hero-slider, #hero-inner-page {
